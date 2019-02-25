@@ -1,4 +1,4 @@
-<h1>Chapter 1: PHP Basics</h1>
+<h1>PHP Basics</h1>
 <?php
 $files = scandir('./');
 sort($files); // this does the sorting
