@@ -3,8 +3,12 @@
 <title>04 Print an Array</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<nav>
+     <?php include ('index.php'); ?>
+</nav>
+<main>
+
 <h1>04 Print an Array</h1>
-<a href="index.php">Return to index</a>
 <hr />
 <pre>
      &lt;?php
@@ -26,3 +30,5 @@ print_r($list);</pre>
 
 $list = array('one','two',3);
 print_r($list);
+?>
+</main>

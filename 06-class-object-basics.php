@@ -3,6 +3,13 @@
 <title>06 Class/object basics</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
+<nav>
+     <?php include ('index.php'); ?>
+</nav>
+<main>
+
+
 <h1>06 Class/object basics</h1>
 <a href="index.php">Return to index</a>
 <hr />
@@ -40,3 +47,5 @@ class Stats {
         $this->values = $arr;
     }
 }
+?>
+</main>

@@ -3,9 +3,13 @@
 <title>03 For loop</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
+<nav>
+     <?php include ('index.php'); ?>
+</nav>
+<main>
+
 <h1>03 For loop</h1>
-<a href="index.php">Return to index</a>
-<hr />
 
 <pre>
 &lt;?php
@@ -35,3 +39,4 @@ for ($i=0; $i<5; $i++) {
 }
 ?>
 
+</main>

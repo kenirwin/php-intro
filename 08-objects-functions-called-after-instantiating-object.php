@@ -3,6 +3,10 @@
 <title>08 Objects - functions called after instantiating object</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<nav>
+     <?php include ('index.php'); ?>
+</nav>
+<main>
 <h1>08 Objects - functions called after instantiating object</h1>
 <a href="index.php">Return to index</a>
 <hr />
@@ -70,3 +74,5 @@ class Stats {
         return $sorted[$middle_index];
     }
 }
+?>
+</main>

@@ -3,6 +3,12 @@
 <title>07 Objects - functions called at __construct time</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
+<nav>
+     <?php include ('index.php'); ?>
+</nav>
+<main>
+
 <h1>07 Objects - functions called at __construct time</h1>
 <a href="index.php">Return to index</a>
 <hr />
@@ -56,3 +62,5 @@ class Stats {
         $this->mean = $sum/$n;
     }
 }
+?>
+</main>

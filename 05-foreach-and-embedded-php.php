@@ -3,6 +3,11 @@
 <title>05 Foreach and embedded PHP</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<nav>
+     <?php include ('index.php'); ?>
+</nav>
+<main>
+
 <h1>05 Foreach and embedded PHP</h1>
 <a href="index.php">Return to index</a>
 <hr />
@@ -34,3 +39,4 @@ foreach ($list as $item) {
 }
 ?>
 </ul>
+</main>
