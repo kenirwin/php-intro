@@ -30,7 +30,7 @@ try {
 
     // now that the content is compiled, create a table and header
     print '&lt;table&gt;'.PHP_EOL;
-    print '&lt;thead&gt;&lt;tr&gt;&lt;td&gt;ID&lt;/td&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Description&lt;/td&gt;&lt;/thead&gt;'.PHP_EOL;
+    print '&lt;thead&gt;&lt;tr&gt;&lt;td&gt;ID&lt;/td&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;Description&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;'.PHP_EOL;
     // and print the contents inside
     print '&lt;tbody&gt;'.PHP_EOL;
     print $lines;
