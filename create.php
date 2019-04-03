@@ -34,6 +34,8 @@ else {
     print '<textarea rows="15" cols="80" name="content"></textarea>'.PHP_EOL;
     print '<br /><input type="submit">'.PHP_EOL;
     print '</form>'.PHP_EOL;
+
+    include ('index.php');
 }
 
 function FormatFileName($title) {
